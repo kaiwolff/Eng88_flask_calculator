@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return "Welcome to the calculator app"
+    return "Welcome to the calculator app, built using jenkins"
 
 @app.route('/add/<int:number1>/<int:number2>')
 def perform_add(number1, number2):
